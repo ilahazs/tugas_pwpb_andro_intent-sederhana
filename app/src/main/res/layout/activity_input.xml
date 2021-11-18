@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Menjumlahkan 2 Buah Bilangan"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukkan Bilangan Pertama" />
+
+    <EditText
+        android:id="@+id/bilangan1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_style"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukkan Bilangan Kedua"/>
+
+    <EditText
+        android:id="@+id/bilangan2"
+        android:layout_marginLeft="25dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_style"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="25dp"
+        android:text="Hitung Bilangan"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil Penjumlahan"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/jumlah"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/input_style"
+        android:focusable="false"/>
+
+</LinearLayout>
