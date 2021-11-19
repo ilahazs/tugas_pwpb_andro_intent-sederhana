@@ -4,7 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Projects/Android/PWPB/latihanintent/app/src/main/res/drawable-v24/ic_home_black_24dp.xml" value="0.2296875" />
+        <entry key="..\:/Projects/Android/PWPB/latihanintent/app/src/main/res/drawable/avatar2.xml" value="0.24114583333333334" />
         <entry key="..\:/Projects/Android/PWPB/latihanintent/app/src/main/res/layout/activity_main.xml" value="0.19947916666666668" />
+        <entry key="..\:/Projects/Android/PWPB/latihanintent/app/src/main/res/layout/activity_ui2.xml" value="0.22146739130434784" />
+        <entry key="..\:/Projects/Android/PWPB/latihanintent/app/src/main/res/layout/my_custom_list.xml" value="0.22146739130434784" />
       </map>
     </option>
   </component>
