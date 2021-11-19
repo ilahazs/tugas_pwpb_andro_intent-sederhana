@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(explicit);
                 break;
             case R.id.implicitIntent:
-                Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/"));
+                Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/"));
                 startActivity(implicit);
                 break;
             case R.id.gridView:
